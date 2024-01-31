@@ -2,4 +2,8 @@
 
 [리덕스 공식문서](https://ko.redux.js.org/introduction/getting-started/).
 
-![props](https://velog.velcdn.com/images/wltnrms0629/post/f58299ae-1aa6-43ba-8e73-ceaee457d7dc/Peek%202022-04-09%2017-12.gif)
+## 오늘의 목표
+"리덕스를 사용하며 전역으로 상태를 관리할 수 있다."
+- redux로 간단 카운터 구현하기
+- redux로 편한 카운터 구현하기(payload)
+- redux로 todo 추가하기 기능 구현하기
