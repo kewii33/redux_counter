@@ -13,7 +13,7 @@ import TodoListContainer from "./components/TodoListContainter";
 const App = () => {
   // 간단 계산기
   const dispatch = useDispatch();
-  const plusNumber = useSelector((state) => state.counter.plusNumber);
+  const plusOneResult = useSelector((state) => state.counter.plusOneResult);
 
 
   // 편한 계산기
@@ -39,7 +39,7 @@ const App = () => {
       <div>
         <div>계산기</div>
         <div>
-          {plusNumber}
+          {plusOneResult}
           <button
             onClick={() => {
               dispatch(plusOne()); // 액션객체를 Action creator로 변경합니다.
