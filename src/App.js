@@ -50,7 +50,7 @@ const App = () => {
         </div>
         {/* 빼기 버튼 추가 */}
         <div>
-          {/* {minusNumber} */}
+          {/* {minusOneResult} */}
           <button
             onClick={() => {
 
