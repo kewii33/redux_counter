@@ -18,6 +18,7 @@ export const plusOne = () => {
 const initialState = {
   plusOneResult: 0,
   minusOneResult: 0,
+  totalNumber: 0,
 
   globalNumber: 0,
 };
