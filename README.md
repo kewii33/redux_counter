@@ -7,3 +7,4 @@
 - redux로 간단 카운터 구현하기
 - redux로 편한 카운터 구현하기(payload)
 - redux로 todo 추가하기 기능 구현하기
+# redux_counter

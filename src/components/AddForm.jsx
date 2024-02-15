@@ -1,14 +1,21 @@
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addTodo } from "../redux/modules/todos";
-import styled from "styled-components";
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import styled from 'styled-components';
+import { addTodo } from '../redux/modules/todos';
 
 const AddForm = () => {
-  const [title, setTitle] = useState("");
+  const [title, setTitle] = useState('');
+  const todos = useSelector((state) => state.todos.todos);
+  const dispatch = useDispatch();
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    
+    dispatch(
+      addTodo({
+        id: todos[todos.length - 1].id + 1,
+        title: title,
+      })
+    );
   };
 
   return (
